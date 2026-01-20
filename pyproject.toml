@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interview-scheduler-agent"
+version = "0.1.0"
+description = "Cross-timezone interview scheduling with conflict detection and auto-rescheduling."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/interview-scheduler-agent"
+Issues = "https://github.com/erron-ai/interview-scheduler-agent/issues"
+
+[project.scripts]
+interview-scheduler-agent = "interview_scheduler_agent.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
