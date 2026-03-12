@@ -2,7 +2,7 @@
 
 Cross-timezone interview scheduling with conflict detection and auto-rescheduling.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
